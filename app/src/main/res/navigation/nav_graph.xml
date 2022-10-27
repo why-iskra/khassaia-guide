@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_graph_main">
+
+    <include app:graph="@navigation/nav_graph_main" />
+    <include app:graph="@navigation/nav_graph_route" />
+    <action
+        android:id="@+id/action_global_nav_graph_route"
+        app:destination="@id/nav_graph_route"
+        app:enterAnim="@anim/fade_in_short"
+        app:exitAnim="@anim/fade_out_short"
+        app:popEnterAnim="@anim/fade_in_short"
+        app:popExitAnim="@anim/fade_out_short"
+        app:popUpTo="@id/nav_graph_route"
+        app:popUpToInclusive="true">
+
+        <argument
+            android:name="placeId"
+            app:argType="integer" />
+    </action>
+</navigation>

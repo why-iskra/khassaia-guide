@@ -1,0 +1,46 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "khassaia-guide"
+include ':app'
+include ':ui-kit'
+
+include ':core:configuration'
+include ':core:configuration-api'
+include ':core:configuration-impl'
+include ':core:utils'
+
+include ':feature:map'
+include ':feature:map-api'
+include ':feature:map-impl'
+include ':feature:main'
+include ':feature:main-api'
+include ':feature:main-impl'
+include ':feature:map-controller'
+include ':feature:map-controller-api'
+include ':feature:map-controller-impl'
+include ':feature:settings'
+include ':feature:settings-api'
+include ':feature:settings-impl'
+include ':feature:app-info'
+include ':feature:app-info-api'
+include ':feature:app-info-impl'
+include ':feature:route'
+include ':feature:route-api'
+include ':feature:route-impl'
+
+include ':repository:places'
+include ':repository:preferences'
+include ':repository:preferences-api'
+include ':repository:preferences-impl'

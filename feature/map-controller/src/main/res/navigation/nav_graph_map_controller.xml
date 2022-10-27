@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_map_controller"
+    app:startDestination="@id/fragmentMapController">
+
+    <fragment
+        android:id="@+id/fragmentMapController"
+        android:name="ru.unit.feature_map_controller_impl.presentation.MapControllerFragment"
+        android:label="FragmentMapController" />
+    <action
+        android:id="@+id/action_global_fragmentMapController"
+        app:destination="@id/fragmentMapController" />
+</navigation>

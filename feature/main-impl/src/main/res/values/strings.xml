@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="khassaia_guide">Khassaia guide</string>
+    <string name="list">List</string>
+    <string name="map">Map</string>
+    <string name="app_info">App info</string>
+    <string name="settings">Settings</string>
+    <string name="place_name">Place name</string>
+    <string name="price_pattern">%s₽</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="khassaia-guide.core-configuration" target="11" />
+      <module name="khassaia-guide.core-configuration-api" target="11" />
+      <module name="khassaia-guide.core-configuration-impl" target="11" />
+      <module name="khassaia-guide.core.utils.test" target="1.8" />
+      <module name="khassaia-guide.feature-app-info" target="11" />
+      <module name="khassaia-guide.feature-main" target="11" />
+      <module name="khassaia-guide.feature-main-api" target="11" />
+      <module name="khassaia-guide.feature-map" target="11" />
+      <module name="khassaia-guide.feature-map-api" target="11" />
+      <module name="khassaia-guide.feature-map-controller" target="11" />
+      <module name="khassaia-guide.feature-map-controller-api" target="11" />
+      <module name="khassaia-guide.feature-settings" target="11" />
+      <module name="khassaia-guide.ui" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

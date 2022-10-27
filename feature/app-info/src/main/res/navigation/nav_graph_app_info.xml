@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_app_info"
+    app:startDestination="@id/appInfoFragment">
+
+    <fragment
+        android:id="@+id/appInfoFragment"
+        android:name="ru.unit.feature_app_info_impl.presentation.AppInfoFragment"
+        android:label="AppInfoFragment" />
+    <action
+        android:id="@+id/action_global_appInfoFragment"
+        app:destination="@id/appInfoFragment" />
+</navigation>

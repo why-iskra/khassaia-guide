@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/configuration" />
+            <option value="$PROJECT_DIR$/core/configuration-api" />
+            <option value="$PROJECT_DIR$/core/configuration-impl" />
+            <option value="$PROJECT_DIR$/core/utils" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/app-info" />
+            <option value="$PROJECT_DIR$/feature/app-info-api" />
+            <option value="$PROJECT_DIR$/feature/app-info-impl" />
+            <option value="$PROJECT_DIR$/feature/main" />
+            <option value="$PROJECT_DIR$/feature/main-api" />
+            <option value="$PROJECT_DIR$/feature/main-impl" />
+            <option value="$PROJECT_DIR$/feature/map" />
+            <option value="$PROJECT_DIR$/feature/map-api" />
+            <option value="$PROJECT_DIR$/feature/map-controller" />
+            <option value="$PROJECT_DIR$/feature/map-controller-api" />
+            <option value="$PROJECT_DIR$/feature/map-controller-impl" />
+            <option value="$PROJECT_DIR$/feature/map-impl" />
+            <option value="$PROJECT_DIR$/feature/route" />
+            <option value="$PROJECT_DIR$/feature/route-api" />
+            <option value="$PROJECT_DIR$/feature/route-impl" />
+            <option value="$PROJECT_DIR$/feature/settings" />
+            <option value="$PROJECT_DIR$/feature/settings-api" />
+            <option value="$PROJECT_DIR$/feature/settings-impl" />
+            <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/repository/places" />
+            <option value="$PROJECT_DIR$/repository/preferences" />
+            <option value="$PROJECT_DIR$/repository/preferences-api" />
+            <option value="$PROJECT_DIR$/repository/preferences-impl" />
+            <option value="$PROJECT_DIR$/ui-kit" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
